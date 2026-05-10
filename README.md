@@ -10,6 +10,13 @@ In the meantime, I did some research on my own, and you can find it here.
 
 
 # Inside
+This is what the microphone looks like on the inside. The PTT switch isn't connected directly to the radio. 
+It's connected to a small microcontroller, which in turn controls the radio.
+
+![inside the microphone](microphone_inside.png)
+
+In detail, the wire colors.
+![microphone baseboard](microphone_details.png)
 
 # This is what you were looking for
 | Pin | Function | Remarks | Wire Color
@@ -20,6 +27,8 @@ In the meantime, I did some research on my own, and you can find it here.
 | 4 | Not Used | | |
 | 5 | GND | | BLACK |
 | 6 | +5V | For MCU | RED |
+
+![CB radio microphone connector ](CB_connector.png)
 
 # DATA Protocol
 The data line is +3.3V high, when pressing a button, for example UP or DOWN, the voltage drops slightly to quickly go to its nominal voltage.
