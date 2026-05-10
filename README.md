@@ -13,7 +13,7 @@ In the meantime, I did some research on my own, and you can find it here.
 
 # This is what you were looking for
 | Pin | Function | Remarks | Wire Color
-| --- | ----------- | ----|
+| --- | -------- | ------- | ---------- |
 | 1 | Modulation | +2.6V phantom power | YELLOW |
 | 2 | Data (UP, DOWN, NR, ...) | +3.3V | BLUE |
 | 3 | TX | +3.3V | WHITE |
