@@ -12,14 +12,14 @@ In the meantime, I did some research on my own, and you can find it here.
 # Inside
 
 # This is what you were looking for
-| Pin | Function | Remarks |
+| Pin | Function | Remarks | Wire Color
 | --- | ----------- | ----|
-| 1 | Modulation | +2.6V phantom power
-| 2 | Data (UP, DOWN, NR, ...) | +3.3V |
-| 3 | TX | +3.3V |
-| 4 | Not Used | |
-| 5 | GND | |
-| 6 | +5V | For MCU |
+| 1 | Modulation | +2.6V phantom power | YELLOW |
+| 2 | Data (UP, DOWN, NR, ...) | +3.3V | BLUE |
+| 3 | TX | +3.3V | WHITE |
+| 4 | Not Used | | |
+| 5 | GND | | BLACK |
+| 6 | +5V | For MCU | RED |
 
 # DATA Protocol
 The data line is +3.3V high, when pressing a button, for example UP or DOWN, the voltage drops slightly to quickly go to its nominal voltage.
